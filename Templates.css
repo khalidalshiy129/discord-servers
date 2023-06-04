@@ -1,0 +1,85 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Global styles */
+  body {
+    background-color: #111;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #000;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  /* Templates section styles */
+  #templates {
+    background-color: #111;
+    padding: 40px 0;
+  }
+  
+  #templates h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .template {
+    background-color: #222;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .template h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .template p {
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .template .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .template .btn:hover {
+    background-color: #f2f2f2;
+  }
+  
